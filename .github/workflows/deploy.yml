@@ -23,20 +23,17 @@ jobs:
           npm install hexo-cli -g
           npm install
 
-      - name: Generate public files # 生成博客预发布文件
-        run: |
-          hexo clean
-          hexo g  
-
-      - name: Deploy # 发布
+      - name: Generate and Deploy # 生成博客预发布文件 
         env:
           GH_REF: github.com/pangyuworld/pangyuworld.github.io.git # GitHub 仓库 SSH 地址
           GH_TOKEN: ${{ secrets.GH_TOKEN }}  # 预先生成 GitHub Token
         run: |
+          hexo clean
+          hexo g  
           git config --global user.name "pangyuworld"
           git config --global user.email "a904237539@qq.com"
-          cp .git public/
+          cp ./.git ./public/
           git checkout master
           git add .
           git commit -m "CI built at `date +"%Y-%m-%d %H:%M:%S"`"
-          git push -f origin master:master
+          git push -f origin master:master          
