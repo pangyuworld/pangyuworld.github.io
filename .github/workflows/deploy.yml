@@ -31,7 +31,7 @@ jobs:
       - name: Deploy # 发布
         env:
           GH_REF: github.com/pangyuworld/pangyuworld.github.io.git # GitHub 仓库 SSH 地址
-          GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}  # 预先生成 GitHub Token
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # 预先生成 GitHub Token
         run: |
           git config --global user.name "pangyuworld"
           git config --global user.email "a904237539@qq.com"
@@ -43,4 +43,4 @@ jobs:
           cd ./public/
           git add .
           git commit -m "CI built at `date +"%Y-%m-%d %H:%M:%S"`"
-          git push --force --quiet "https://${ACCESS_TOKEN}@${GH_REF}" master:master
+          git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
