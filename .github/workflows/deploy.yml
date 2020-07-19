@@ -35,12 +35,8 @@ jobs:
         run: |
           git config --global user.name "pangyuworld"
           git config --global user.email "a904237539@qq.com"
-          git clone https://${GH_REF} .deploy_git
-          cd .deploy_git
+          cp .git public/
           git checkout master
-          cd ../
-          mv .deploy_git/.git/ ./public/
-          cd ./public/
           git add .
           git commit -m "CI built at `date +"%Y-%m-%d %H:%M:%S"`"
-          git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+          git push -f origin master:master
