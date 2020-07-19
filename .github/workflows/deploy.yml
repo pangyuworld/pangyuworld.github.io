@@ -8,9 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v1.1.0
-      with:
-        submodules: recursive
+      uses: actions/checkout@master
+      
     - name: Build and Deploy
       uses: ApolloZhu/hexo-deploy-action@master
       env:
@@ -51,8 +50,8 @@ jobs:
 #         run: |
 #           hexo clean
 #           hexo g  
-#           git config --global user.name "pangyuworld"
-#           git config --global user.email "a904237539@qq.com"
+          git config --global user.name "pangyuworld"
+          git config --global user.email "a904237539@qq.com"
 #           git clone -b master https://${GH_REF} ./blog
 #           mv ./blog/.git public/
 #           cd public/
