@@ -33,7 +33,8 @@ jobs:
           ls -a
           git config --global user.name "pangyuworld"
           git config --global user.email "a904237539@qq.com"
-          cp ./.git ./public/
+          cp -r ./.git ./public/
+          cd public
           git checkout master
           git add .
           git commit -m "CI built at `date +"%Y-%m-%d %H:%M:%S"`"
