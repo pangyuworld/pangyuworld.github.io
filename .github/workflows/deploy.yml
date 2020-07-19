@@ -1,6 +1,6 @@
 name: Hexo deployer # Actions 名字
 
-on: # 触发条件
+on: # 触发条件 
   push:
     branches:
       - blog-config # 仅向 hexo-config 分支 push 时触发，该分支存放博客源文件
