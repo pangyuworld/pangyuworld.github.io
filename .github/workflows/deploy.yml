@@ -30,12 +30,11 @@ jobs:
         run: |
           hexo clean
           hexo g  
-          ls -a
           git config --global user.name "pangyuworld"
           git config --global user.email "a904237539@qq.com"
-          cp -r .git public/
+          git clone -b master GH_REF ./blog
+          mv ./blog/.git public/
           cd public/
-          git checkout master
           git add .
           git commit -m "CI built at `date +"%Y-%m-%d %H:%M:%S"`"
           git push -f origin master:master          
