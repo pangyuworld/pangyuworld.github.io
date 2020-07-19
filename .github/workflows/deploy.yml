@@ -1,0 +1,46 @@
+name: Hexo deployer # Actions 名字
+
+on: # 触发条件
+  push:
+    branches:
+      - blog-config # 仅向 hexo-config 分支 push 时触发，该分支存放博客源文件
+
+jobs:
+  build: # job id
+    name: Build and publish # job 名，不写默认使用 job id
+    runs-on: ubuntu-latest # 运行环境，可选 ubuntu-latest, ubuntu-18.04, ubuntu-16.04, windows-latest, windows-2019, windows-2016, macOS-latest, macOS-10.14
+
+    steps:
+      - uses: actions/checkout@v1 # 拉取博客最新源文件
+
+      - name: Use Node.js 10.x # 指定 Node.js 版本
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+
+      - name: Setup Hexo env # 初始化 Hexo 环境
+        run: |
+          npm install hexo-cli -g
+          npm install
+
+      - name: Generate public files # 生成博客预发布文件
+        run: |
+          hexo clean
+          hexo g  
+
+      - name: Deploy # 发布
+        env:
+        GH_REF: github.com/pangyuworld/pangyuworld.github.io.git # GitHub 仓库 SSH 地址
+        GH_TOKEN: 555267ede79519afbbbd86314a80edcdf5dd0baa  # 预先生成 GitHub Token
+        run: |
+          git config --global user.name "pangyuworld"
+          git config --global user.email "a904237539@qq.com"
+          git clone https://${GH_REF} .deploy_git
+          cd .deploy_git
+          git checkout master
+          cd ../
+          mv .deploy_git/.git/ ./public/
+          cd ./public/
+          git add .
+          git commit -m "CI built at `date +"%Y-%m-%d %H:%M:%S"`"
+          git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master

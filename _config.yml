@@ -3,23 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Pang-Blog
-subtitle: 一个有梦想的年轻人
-description: 一个有梦想的年轻人
-keywords: "java，spring boot，spring MVC，mysql，开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek"
-author: 小胖儿
-language: zh-CN
+title: Hexo
+subtitle: ''
+description: ''
+keywords:
+author: John Doe
+language: en
 timezone: ''
-
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://pangyuworld.github.io/
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing index.html from permalinks
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -93,14 +93,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Butterfly
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-
 deploy:
-  type: git
-  repo: 
-    github: https://github.com/pangyuworld/pangyuworld.github.io
-    coding: https://git.dev.tencent.com/xiaopangemm/xiaopangemm
-  branch: master
+  type: ''
