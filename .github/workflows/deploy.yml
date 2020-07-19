@@ -30,8 +30,8 @@ jobs:
 
       - name: Deploy # 发布
         env:
-        GH_REF: github.com/pangyuworld/pangyuworld.github.io.git # GitHub 仓库 SSH 地址
-        GH_TOKEN: 555267ede79519afbbbd86314a80edcdf5dd0baa  # 预先生成 GitHub Token
+          GH_REF: github.com/pangyuworld/pangyuworld.github.io.git # GitHub 仓库 SSH 地址
+          GH_TOKEN: 555267ede79519afbbbd86314a80edcdf5dd0baa  # 预先生成 GitHub Token
         run: |
           git config --global user.name "pangyuworld"
           git config --global user.email "a904237539@qq.com"
