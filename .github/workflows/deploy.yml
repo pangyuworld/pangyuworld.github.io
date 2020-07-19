@@ -32,7 +32,7 @@ jobs:
           hexo g  
           git config --global user.name "pangyuworld"
           git config --global user.email "a904237539@qq.com"
-          git clone -b master GH_REF ./blog
+          git clone -b master https://${GH_REF} ./blog
           mv ./blog/.git public/
           cd public/
           git add .
