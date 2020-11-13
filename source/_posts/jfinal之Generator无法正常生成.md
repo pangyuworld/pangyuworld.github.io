@@ -6,6 +6,7 @@ mathjax: true
 cover: https://www.jfinal.com/assets/img/jfinallogo.png
 tags:
 	- jfinal
+typora-root-url: ..
 ---
 
 今天在部署jfinal的demo的时候，我自己在数据库添加了一个表，然后打算使用jfinal的Generator去生成相关信息，运行和很多遍都失败了，然后上网查询解决办法，解决办法倒是没有，<!-- more -->只有[波总，为何我用maven jfinal generator无法生成model呢？](http://www.jfinal.com/feedback/112)这样一个问题。参考了这个问题，我发现我的数据库信息声称在了WebRoot下的src路径。

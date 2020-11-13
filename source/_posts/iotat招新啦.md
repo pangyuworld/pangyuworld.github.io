@@ -5,6 +5,7 @@ author: 小胖儿
 mathjax: true
 tags:
     - iotat
+typora-root-url: ..
 ---
 
 2019物联网应用技术创新实践班招新啦！！

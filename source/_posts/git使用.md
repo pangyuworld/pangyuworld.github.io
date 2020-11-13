@@ -7,6 +7,7 @@ cover: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=15750
 tags:
 	- git 
 	- 工具
+typora-root-url: ..
 ---
 
 # git使用简介

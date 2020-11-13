@@ -6,6 +6,7 @@ mathjax: true
 cover: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575097965880&di=fdc16ec7d40ce41dec45da8c59d1f492&imgtype=0&src=http%3A%2F%2Fwww.91wzg.com%2Fuploads%2Fallimg%2F170712%2F14001450Y_0.png
 tags:
 	- ubuntu
+typora-root-url: ..
 ---
 
 作为一个新人入坑，我又下载安装了ubuntu，这次的打算是赖死在linux上了。

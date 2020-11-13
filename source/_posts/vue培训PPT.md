@@ -7,6 +7,7 @@ date: 2019-08-11 02:31:39
 tags:
 	- 培训
 	- VUE
+typora-root-url: ..
 ---
 
 ![幻灯片1](/assets/幻灯片1.JPG)

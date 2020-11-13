@@ -6,6 +6,7 @@ cover: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1613194509,3683
 date: 2019-07-10 15:43:21
 tags:
 	- markdown
+typora-root-url: ..
 ---
 
 ![markdown图标](/assets/1280px-Markdown-mark.svg.png)

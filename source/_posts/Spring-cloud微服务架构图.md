@@ -8,6 +8,7 @@ tags:
 	- Spring Cloud
 	- 微服务
 	- 转载
+typora-root-url: ..
 ---
 
 ![图片出自https://www.processon.com/view/5b7d2f1fe4b075b9fe22d3d2](/assets/1575459879510.png)

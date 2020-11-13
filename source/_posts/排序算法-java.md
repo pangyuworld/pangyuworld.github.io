@@ -7,6 +7,7 @@ cover: /assets/1575087132732.png
 tags: 
 	- Java
 	- 算法
+typora-root-url: ..
 ---
 # 算法学习（一）——排序算法
 

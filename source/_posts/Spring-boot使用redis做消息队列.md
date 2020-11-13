@@ -11,6 +11,7 @@ tags:
 	- 秒杀项目
 	- 消息队列
 	- Java
+typora-root-url: ..
 ---
 
 ![](/assets/1574389454455.png)

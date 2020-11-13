@@ -8,7 +8,7 @@ tags:
 	- 阿里巴巴
 	- 找工作
 	- 面经
-
+typora-root-url: ..
 ---
 
 # 前言

@@ -7,6 +7,7 @@ cover: /assets/1575087573085.png
 tags:
 	- Java
 	- 规范
+typora-root-url: ..
 ---
 
 转载自“java中包命名常见规则 - 白了少年头 - 博客园 ”https://www.cnblogs.com/yxnchinahlj/p/4480967.html

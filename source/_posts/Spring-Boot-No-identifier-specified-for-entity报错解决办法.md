@@ -7,6 +7,7 @@ cover: /assets/u=2656353677,2997395625&fm=26&gp=0.jpg
 tags:
 	- spring boot
 	- Java
+typora-root-url: ..
 ---
 
 遇到这种情况一般是因为实体类没有声明主键或者是`@Id`的位置放得不对。解决办法就是声明主键或者将`@Id`放在对应字段的get()方法上。

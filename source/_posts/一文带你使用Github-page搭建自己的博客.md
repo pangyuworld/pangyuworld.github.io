@@ -6,6 +6,7 @@ cover: /assets/github.png
 tags:
 	- Github Page
 	- 建站
+typora-root-url: ..
 ---
 
 ![](/assets/github.png)

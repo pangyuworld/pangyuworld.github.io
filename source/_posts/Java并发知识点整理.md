@@ -7,6 +7,7 @@ date: 2019-10-18 16:26:06
 tags:
 	- Java
 	- 高并发
+typora-root-url: ..
 ---
 
 ![](/assets/jva.jpg)

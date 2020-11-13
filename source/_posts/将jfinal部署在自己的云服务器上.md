@@ -7,6 +7,7 @@ cover: https://www.jfinal.com/assets/img/jfinallogo.png
 tags:
 	- jfinal
 	- 建站
+typora-root-url: ..
 ---
 
 将jfinal部署在自己的云服务器上

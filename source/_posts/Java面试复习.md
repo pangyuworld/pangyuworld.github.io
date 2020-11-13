@@ -7,6 +7,7 @@ cover:
 tags:
 	- Java
 	- 面试复习
+typora-root-url: ..
 ---
 
 ## 1、为什么阿里巴巴编码规范中规定不让使用Executors定义线程池？

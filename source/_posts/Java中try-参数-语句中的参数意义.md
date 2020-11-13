@@ -7,6 +7,7 @@ cover: /assets/1575087573085.png
 tags:
 	- Java
 	- Java8
+typora-root-url: ..
 ---
 
 参考[Java中带参数的try(){}语法含义是什么？ - CSDN博客](https://blog.csdn.net/llkoio/article/details/78939148)

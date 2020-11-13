@@ -5,6 +5,7 @@ mathjax: true
 date: 2019-08-10 10:01:10
 tags:
 	- 科学上网
+typora-root-url: ..
 ---
 
 当小伙伴们使用SSR科学上网的时候，如果你用的是宽带连接，千万要记住：

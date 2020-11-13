@@ -9,6 +9,7 @@ tags:
 	- spring
 	- mybatis
 	- redis
+typora-root-url: ..
 ---
 
 这篇文章讲述了如何在spring boot中集成阿里巴巴开源的mybatis-redis插件，包括简单demo和我自己遇到的问题。

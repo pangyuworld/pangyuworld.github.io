@@ -7,6 +7,7 @@ cover: /assets/ac6eddc451da81cb037c289d5366d016082431c3.jpg
 tags:
 	- 数据库
 	- MySQL
+typora-root-url: ..
 ---
 
 ![](/assets/ac6eddc451da81cb037c289d5366d016082431c3.jpg)

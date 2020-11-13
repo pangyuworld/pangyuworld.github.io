@@ -7,6 +7,7 @@ cover: /assets/1575087573085.png
 tags:
 	- Java
 	- 异常
+typora-root-url: ..
 ---
 
 转载自[Java 常见异常种类 - 大神不解释 - 博客园 ](https://www.cnblogs.com/cvst/p/5822373.html)

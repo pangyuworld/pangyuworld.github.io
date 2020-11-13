@@ -8,6 +8,7 @@ tags:
 	- Java
 	- eclipse
 	- IDE
+typora-root-url: ..
 ---
 
 为什么我们不用记事本写代码？因为记事本功能少。那么，eclipse功能就多吗？答案是，如果你不会使用eclipse的话，还不如使用记事本写代码。

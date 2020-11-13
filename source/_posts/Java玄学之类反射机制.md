@@ -7,6 +7,7 @@ cover: /assets/1575087573085.png
 tags:
 	- Java
 	- 反射
+typora-root-url: ..
 ---
 
 Java玄学之类反射机制

@@ -8,6 +8,7 @@ tags:
 	- Easy Coding
 	- 面向对象
 	- Java
+typora-root-url: ..
 ---
 
 **面向对象编程（Object-Oriented Programming，OOP）**是划时代的编程思想变革，推动了高级语言的快速发展和工业化进程。而面向对象的一个基础就是**类（Class）**。

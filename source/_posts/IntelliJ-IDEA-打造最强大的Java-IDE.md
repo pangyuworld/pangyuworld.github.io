@@ -9,6 +9,7 @@ tags:
 	- Java
 	- IDEA
 	- IDE
+typora-root-url: ..
 ---
 
  ![img](/assets/intellij-idea_1280x800.png) 

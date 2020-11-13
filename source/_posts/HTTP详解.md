@@ -8,6 +8,7 @@ tags:
 	- 计算机网络
 	- HTTP
 	- 培训
+typora-root-url: ..
 ---
 
 ![图片来源于网络](/assets/865913c28ac84196972d029d97683314_th.jpg)
