@@ -1,5 +1,4 @@
-hexo clean
-hexo d
+git pull origin blog-config
 git add ./
-git commit -m '修改博客'
-git push origin matery
+git commit -m 'a'
+git push origin blog-config

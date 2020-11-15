@@ -54,9 +54,9 @@ typora-root-url: ..
 
 ## hello world
 
-​```js
+/```js
 console.log("hello world")
-​```
+/```
 
 # t
 ```
