@@ -5,4 +5,5 @@ author: 小胖儿
 mathjax: true
 cover: 
 tags:
+typora-root-url: ..
 ---
