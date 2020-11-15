@@ -49,17 +49,7 @@ typora-root-url: ..
 
 注意是Markdown语法，如果不熟悉Markdown语法可以参考我之前的文章[markdown从入门到入坑](/2019/07/10/markdown从入门到入坑/)，下面是我做的一些测试改动
 
-```markdown
-# 这是测试文件
-
-## hello world
-
-/```js
-console.log("hello world")
-/```
-
-# t
-```
+![image-20201115165641201](/assets/一文带你使用Github-page搭建自己的博客/image-20201115165641201.png)
 
 ## 4、将修改上传到Github，并且开启Github page
 
