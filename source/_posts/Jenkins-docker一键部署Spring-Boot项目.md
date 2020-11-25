@@ -1,5 +1,4 @@
 ---
-
 title: Jenkins+docker一键部署Spring Boot项目
 author: 小胖儿
 mathjax: true
@@ -10,7 +9,6 @@ tags:
 	- Spring Boot
 	- Jenkins
 	- Docker
-typora-root-url: ..
 ---
 
 # 一、系统环境
