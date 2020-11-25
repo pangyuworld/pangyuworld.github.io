@@ -4,7 +4,7 @@ author: 小胖儿
 mathjax: true
 typora-root-url: ..
 date: 2020-11-21 10:21:05
-cover:
+cover: /assets/Jenkins-docker%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2Spring-Boot%E9%A1%B9%E7%9B%AE/timg
 tags:
 	- Spring Boot
 	- Jenkins
