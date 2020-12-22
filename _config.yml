@@ -102,3 +102,15 @@ deploy:
   type: heroku
   repo: https://github.com/pangyuworld/pangyuworld.github.io
   # branch: master
+
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    use: live2d-widget-model-hijiki  #模板目录，在node_modules里
+  display:
+    position: right
+    width: 250
+    height: 500
+  mobile:
+    show: false  #是否在手机进行显示
